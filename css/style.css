@@ -108,6 +108,12 @@ body {
     padding: 15px 40px;
 }
 
+.btn-animated {
+    animation: moveInBottom .5s ease-out .75s;
+    /*applies before the other animations even start*/
+    animation-fill-mode: backwards;
+}
+
 .btn::after {
     display: inline-block;
     content: '';
@@ -165,12 +171,12 @@ body {
     /*start*/
     0% {
         opacity: 0;
-        transform: translateX(100px);
+        transform: translateY(30px);
     }
 
     /*finish*/
     100% {
         opacity: 1;
-        transform: translateX(0);
+        transform: translateY(0);
     }
 }
