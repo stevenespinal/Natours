@@ -46,11 +46,13 @@ body {
     left: 50%;
     top: 40%;
     transform: translate(-50%, -50%);
+    text-align: center;
 }
 
 .heading-primary {
     color: #FFF;
     backface-visibility: hidden;
+    margin-bottom: 60px;
 }
 
 .heading-primary-main, .heading-primary-sub {
@@ -74,6 +76,30 @@ body {
     letter-spacing: 17px;
     font-weight: 700;
     animation: moveInRight 0.8s ease-out;
+}
+
+.btn:link, .btn:visited {
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 100px;
+    transition: all .2s;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btn:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn-white {
+    background-color: #FFF;
+    color: #777;
+    padding: 15px 40px;
 }
 
 @keyframes moveInLeft {
