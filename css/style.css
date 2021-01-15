@@ -37,17 +37,17 @@ body {
     position: relative;
 }
 
-.logo-box {
+.header__logo-box {
     position: absolute;
     top: 4rem;
     left: 4rem;
 }
 
-.logo {
+.header__logo {
     height: 3.5rem;
 }
 
-.text-box {
+.header__text-box {
     position: absolute;
     left: 50%;
     top: 40%;
@@ -61,18 +61,18 @@ body {
     margin-bottom: 6rem;
 }
 
-.heading-primary-main, .heading-primary-sub {
+.heading-primary--main, .heading-primary--sub {
     display: block;
 }
 
-.heading-primary-main {
+.heading-primary--main {
     letter-spacing: 3.5rem;
     font-size: 5rem;
     font-weight: 400;
     animation: moveInLeft 0.8s ease-out;
 }
 
-.heading-primary-sub {
+.heading-primary--sub {
     font-size: 2rem;
     letter-spacing: 1.7rem;
     font-weight: 700;
@@ -104,13 +104,13 @@ body {
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.2);
 }
 
-.btn-white {
+.btn--white {
     background-color: #FFF;
     color: #595959;
     padding: 1.5rem 4rem;
 }
 
-.btn-animated {
+.btn--animated {
     animation: moveInBottom .5s ease-out .75s;
     /*applies before the other animations even start*/
     animation-fill-mode: backwards;
@@ -129,7 +129,7 @@ body {
     transition: all .4s;
 }
 
-.btn-white::after {
+.btn--white::after {
     background-color: #FFF;
 }
 
