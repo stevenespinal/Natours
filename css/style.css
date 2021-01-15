@@ -112,7 +112,6 @@ body {
 
 .btn--animated {
     animation: moveInBottom .5s ease-out .75s;
-    /*applies before the other animations even start*/
     animation-fill-mode: backwards;
 }
 
@@ -152,7 +151,6 @@ body {
 }
 
 @keyframes moveInRight {
-    /*start*/
     0% {
         opacity: 0;
         transform: translateX(10rem);
@@ -162,7 +160,6 @@ body {
         transform: translateX(-1rem);
     }
 
-    /*finish*/
     100% {
         opacity: 1;
         transform: translateX(0);
@@ -170,13 +167,11 @@ body {
 }
 
 @keyframes moveInBottom {
-    /*start*/
     0% {
         opacity: 0;
         transform: translateY(3rem);
     }
 
-    /*finish*/
     100% {
         opacity: 1;
         transform: translateY(0);
